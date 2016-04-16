@@ -30,3 +30,9 @@
 
 # Debug files
 *.dSYM/
+
+# Project object trash
+/obj
+
+# Project compiled output
+*.gb
