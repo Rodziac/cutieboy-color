@@ -2,8 +2,6 @@ BIN=~/gbdk-n/bin
 OBJ=./obj
 GAMENAME=test
 
-
-
 build:
 	mkdir -p $(OBJ)
 	$(BIN)/gbdk-n-compile.sh $(GAMENAME).c -o $(OBJ)/$(GAMENAME).rel
@@ -13,3 +11,6 @@ build:
 clean:
 	rm -rf $(OBJ)
 	rm -f $(GAMENAME).gb
+
+test:
+	gvbam $(GAMENAME).gb
