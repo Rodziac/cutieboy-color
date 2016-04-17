@@ -25,7 +25,7 @@ Usage
 ```bash
     make clean
 ```
-- To test your game (needs vbam), after you build your code, run:
+- To test your game (needs vbam), run:
 ```bash
     make test
 ```

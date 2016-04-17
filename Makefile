@@ -12,4 +12,9 @@ clean:
 	rm -f $(GAMENAME).gb
 
 test:
+	make clean
+	make build
+	make run
+
+run:
 	gvbam $(GAMENAME).gb
